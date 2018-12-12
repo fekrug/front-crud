@@ -3,7 +3,7 @@ import App from './App.vue'
 //Vue.config.productionTip = false
 
 export const eventBus = new Vue({
- 
+
   methods: {
     getAll(data) {
       this.$emit('getAll', data)
